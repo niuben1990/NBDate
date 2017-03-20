@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047281071E7FC6750038BF90 /* NBDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047281061E7FC6750038BF90 /* NBDate.m */; };
+		851B691B1C1061D700C69E4A /* NLCMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B69191C1061D700C69E4A /* NLCMonthViewController.m */; };
+		851B691C1C1061D700C69E4A /* NLCMonthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851B691A1C1061D700C69E4A /* NLCMonthViewController.xib */; };
+		852772DB1C16F09E001758B6 /* LCBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 852772D81C16F09E001758B6 /* LCBlurView.m */; };
+		852772DC1C16F09E001758B6 /* PagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 852772DA1C16F09E001758B6 /* PagedFlowView.m */; };
+		852BC4C81C2823420071CE9E /* NLCLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852BC4C61C2823420071CE9E /* NLCLeftMenuViewController.m */; };
+		852BC4C91C2823420071CE9E /* NLCLeftMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852BC4C71C2823420071CE9E /* NLCLeftMenuViewController.xib */; };
+		8540EF151C2CDE56003F42A0 /* NLCBirthdayListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540EF141C2CDE56003F42A0 /* NLCBirthdayListController.m */; };
+		8540EF181C2D0B24003F42A0 /* NLCBirthdayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540EF171C2D0B24003F42A0 /* NLCBirthdayTableViewCell.m */; };
+		854235301C2C2A6C00A99086 /* NLCDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542352F1C2C2A6C00A99086 /* NLCDatabaseManager.m */; };
+		854235331C2C2EE200A99086 /* NLCEventDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 854235321C2C2EE200A99086 /* NLCEventDataTool.m */; };
+		854386251C1EE74E005EC502 /* NLCDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 854386241C1EE74E005EC502 /* NLCDay.m */; };
+		85700D661C2FF3FE00BD6791 /* NSObject+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 85700D651C2FF3FE00BD6791 /* NSObject+HUD.m */; };
+		85A5425B1C1BE715001BA455 /* NLCCalendarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5425A1C1BE715001BA455 /* NLCCalendarLayout.m */; };
+		85A542631C1BF819001BA455 /* NLCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A542621C1BF819001BA455 /* NLCCollectionViewCell.m */; };
+		85B348BC1C2D65F300FDA383 /* NLCInsertEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B348BB1C2D65F300FDA383 /* NLCInsertEventViewController.m */; };
+		85BE719B1C1F9EDD006404F0 /* NLCMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BE719A1C1F9EDD006404F0 /* NLCMonth.m */; };
+		85DEAD841C0DBB7700AA6962 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DEAD831C0DBB7700AA6962 /* main.m */; };
+		85DEAD871C0DBB7700AA6962 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DEAD861C0DBB7700AA6962 /* AppDelegate.m */; };
+		85DEAD8F1C0DBB7700AA6962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DEAD8E1C0DBB7700AA6962 /* Assets.xcassets */; };
+		85DEAD921C0DBB7700AA6962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DEAD901C0DBB7700AA6962 /* LaunchScreen.storyboard */; };
+		85DEAD9C1C0DBC4F00AA6962 /* MainScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DEAD9B1C0DBC4F00AA6962 /* MainScrollViewController.m */; };
+		85DEADA61C0DC51300AA6962 /* NLCDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DEADA41C0DC51300AA6962 /* NLCDayViewController.m */; };
+		85DEADA71C0DC51300AA6962 /* NLCDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DEADA51C0DC51300AA6962 /* NLCDayViewController.xib */; };
+		85F1B3AB1C2910BA00C4A18F /* NLCEventList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F1B3AA1C2910BA00C4A18F /* NLCEventList.storyboard */; };
+		85F95BD41C22DAD900D06193 /* NLCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F95BD31C22DAD900D06193 /* NLCEvent.m */; };
+		8C9B0A6AD726F12BEDD16E3C /* libPods-生辰纲.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A16CFA4718772EF1CFE98733 /* libPods-生辰纲.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		047281051E7FC6750038BF90 /* NBDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NBDate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		047281061E7FC6750038BF90 /* NBDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NBDate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		85175E171C1552D300D1A2DD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		851B69181C1061D700C69E4A /* NLCMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCMonthViewController.h; sourceTree = "<group>"; };
+		851B69191C1061D700C69E4A /* NLCMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCMonthViewController.m; sourceTree = "<group>"; };
+		851B691A1C1061D700C69E4A /* NLCMonthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLCMonthViewController.xib; sourceTree = "<group>"; };
+		852772D71C16F09E001758B6 /* LCBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBlurView.h; sourceTree = "<group>"; };
+		852772D81C16F09E001758B6 /* LCBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBlurView.m; sourceTree = "<group>"; };
+		852772D91C16F09E001758B6 /* PagedFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedFlowView.h; sourceTree = "<group>"; };
+		852772DA1C16F09E001758B6 /* PagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedFlowView.m; sourceTree = "<group>"; };
+		852BC4C51C2823420071CE9E /* NLCLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCLeftMenuViewController.h; sourceTree = "<group>"; };
+		852BC4C61C2823420071CE9E /* NLCLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCLeftMenuViewController.m; sourceTree = "<group>"; };
+		852BC4C71C2823420071CE9E /* NLCLeftMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLCLeftMenuViewController.xib; sourceTree = "<group>"; };
+		8540EF131C2CDE56003F42A0 /* NLCBirthdayListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCBirthdayListController.h; sourceTree = "<group>"; };
+		8540EF141C2CDE56003F42A0 /* NLCBirthdayListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCBirthdayListController.m; sourceTree = "<group>"; };
+		8540EF161C2D0B24003F42A0 /* NLCBirthdayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCBirthdayTableViewCell.h; sourceTree = "<group>"; };
+		8540EF171C2D0B24003F42A0 /* NLCBirthdayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCBirthdayTableViewCell.m; sourceTree = "<group>"; };
+		8542352E1C2C2A6C00A99086 /* NLCDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCDatabaseManager.h; sourceTree = "<group>"; };
+		8542352F1C2C2A6C00A99086 /* NLCDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCDatabaseManager.m; sourceTree = "<group>"; };
+		854235311C2C2EE200A99086 /* NLCEventDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCEventDataTool.h; sourceTree = "<group>"; };
+		854235321C2C2EE200A99086 /* NLCEventDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NLCEventDataTool.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		854386231C1EE74E005EC502 /* NLCDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCDay.h; sourceTree = "<group>"; };
+		854386241C1EE74E005EC502 /* NLCDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NLCDay.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		85700D641C2FF3FE00BD6791 /* NSObject+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HUD.h"; sourceTree = "<group>"; };
+		85700D651C2FF3FE00BD6791 /* NSObject+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HUD.m"; sourceTree = "<group>"; };
+		85A542591C1BE715001BA455 /* NLCCalendarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCCalendarLayout.h; sourceTree = "<group>"; };
+		85A5425A1C1BE715001BA455 /* NLCCalendarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCCalendarLayout.m; sourceTree = "<group>"; };
+		85A542611C1BF819001BA455 /* NLCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCCollectionViewCell.h; sourceTree = "<group>"; };
+		85A542621C1BF819001BA455 /* NLCCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NLCCollectionViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		85B348BA1C2D65F300FDA383 /* NLCInsertEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCInsertEventViewController.h; sourceTree = "<group>"; };
+		85B348BB1C2D65F300FDA383 /* NLCInsertEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCInsertEventViewController.m; sourceTree = "<group>"; };
+		85BE71991C1F9EDD006404F0 /* NLCMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCMonth.h; sourceTree = "<group>"; };
+		85BE719A1C1F9EDD006404F0 /* NLCMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCMonth.m; sourceTree = "<group>"; };
+		85DEAD7F1C0DBB7700AA6962 /* 生辰纲.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "生辰纲.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DEAD831C0DBB7700AA6962 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85DEAD851C0DBB7700AA6962 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85DEAD861C0DBB7700AA6962 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85DEAD8E1C0DBB7700AA6962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85DEAD911C0DBB7700AA6962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85DEAD931C0DBB7700AA6962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DEAD9A1C0DBC4F00AA6962 /* MainScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScrollViewController.h; sourceTree = "<group>"; };
+		85DEAD9B1C0DBC4F00AA6962 /* MainScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScrollViewController.m; sourceTree = "<group>"; };
+		85DEADA31C0DC51300AA6962 /* NLCDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCDayViewController.h; sourceTree = "<group>"; };
+		85DEADA41C0DC51300AA6962 /* NLCDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NLCDayViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		85DEADA51C0DC51300AA6962 /* NLCDayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLCDayViewController.xib; sourceTree = "<group>"; };
+		85F1B3AA1C2910BA00C4A18F /* NLCEventList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NLCEventList.storyboard; sourceTree = "<group>"; };
+		85F95BD21C22DAD900D06193 /* NLCEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCEvent.h; sourceTree = "<group>"; };
+		85F95BD31C22DAD900D06193 /* NLCEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCEvent.m; sourceTree = "<group>"; };
+		989438E7F4DA7319E11559A5 /* Pods-生辰纲.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-生辰纲.release.xcconfig"; path = "Pods/Target Support Files/Pods-生辰纲/Pods-生辰纲.release.xcconfig"; sourceTree = "<group>"; };
+		A16CFA4718772EF1CFE98733 /* libPods-生辰纲.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-生辰纲.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D02E74C790B22FA856289B /* Pods-生辰纲.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-生辰纲.debug.xcconfig"; path = "Pods/Target Support Files/Pods-生辰纲/Pods-生辰纲.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85DEAD7C1C0DBB7700AA6962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9B0A6AD726F12BEDD16E3C /* libPods-生辰纲.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047281041E7FC63B0038BF90 /* NBDate */ = {
+			isa = PBXGroup;
+			children = (
+				047281051E7FC6750038BF90 /* NBDate.h */,
+				047281061E7FC6750038BF90 /* NBDate.m */,
+			);
+			path = NBDate;
+			sourceTree = "<group>";
+		};
+		6042AA7623E5856AD6A31390 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2D02E74C790B22FA856289B /* Pods-生辰纲.debug.xcconfig */,
+				989438E7F4DA7319E11559A5 /* Pods-生辰纲.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EF7C79D6CA36DEB73B290D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A16CFA4718772EF1CFE98733 /* libPods-生辰纲.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851B69131C10605300C69E4A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				852772D61C16F09E001758B6 /* PageFlowView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		852772D61C16F09E001758B6 /* PageFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				852772D71C16F09E001758B6 /* LCBlurView.h */,
+				852772D81C16F09E001758B6 /* LCBlurView.m */,
+				852772D91C16F09E001758B6 /* PagedFlowView.h */,
+				852772DA1C16F09E001758B6 /* PagedFlowView.m */,
+			);
+			path = PageFlowView;
+			sourceTree = "<group>";
+		};
+		856942051C193B0B0097F072 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8542352E1C2C2A6C00A99086 /* NLCDatabaseManager.h */,
+				8542352F1C2C2A6C00A99086 /* NLCDatabaseManager.m */,
+				854235311C2C2EE200A99086 /* NLCEventDataTool.h */,
+				854235321C2C2EE200A99086 /* NLCEventDataTool.m */,
+				854386231C1EE74E005EC502 /* NLCDay.h */,
+				854386241C1EE74E005EC502 /* NLCDay.m */,
+				85BE71991C1F9EDD006404F0 /* NLCMonth.h */,
+				85BE719A1C1F9EDD006404F0 /* NLCMonth.m */,
+				85F95BD21C22DAD900D06193 /* NLCEvent.h */,
+				85F95BD31C22DAD900D06193 /* NLCEvent.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85700D631C2FF3DB00BD6791 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				85700D641C2FF3FE00BD6791 /* NSObject+HUD.h */,
+				85700D651C2FF3FE00BD6791 /* NSObject+HUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		85916A671C184BDB0048B3C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85A542591C1BE715001BA455 /* NLCCalendarLayout.h */,
+				85A5425A1C1BE715001BA455 /* NLCCalendarLayout.m */,
+				85A542611C1BF819001BA455 /* NLCCollectionViewCell.h */,
+				85A542621C1BF819001BA455 /* NLCCollectionViewCell.m */,
+				8540EF161C2D0B24003F42A0 /* NLCBirthdayTableViewCell.h */,
+				8540EF171C2D0B24003F42A0 /* NLCBirthdayTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85DEAD761C0DBB7700AA6962 = {
+			isa = PBXGroup;
+			children = (
+				85DEAD811C0DBB7700AA6962 /* 生辰纲 */,
+				85DEAD801C0DBB7700AA6962 /* Products */,
+				6042AA7623E5856AD6A31390 /* Pods */,
+				7EF7C79D6CA36DEB73B290D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85DEAD801C0DBB7700AA6962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85DEAD7F1C0DBB7700AA6962 /* 生辰纲.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85DEAD811C0DBB7700AA6962 /* 生辰纲 */ = {
+			isa = PBXGroup;
+			children = (
+				047281041E7FC63B0038BF90 /* NBDate */,
+				85700D631C2FF3DB00BD6791 /* Category */,
+				856942051C193B0B0097F072 /* Model */,
+				85916A671C184BDB0048B3C5 /* Views */,
+				851B69131C10605300C69E4A /* Lib */,
+				85DEAD991C0DBC0A00AA6962 /* Controllers */,
+				85DEAD851C0DBB7700AA6962 /* AppDelegate.h */,
+				85DEAD861C0DBB7700AA6962 /* AppDelegate.m */,
+				85DEAD8E1C0DBB7700AA6962 /* Assets.xcassets */,
+				85DEAD901C0DBB7700AA6962 /* LaunchScreen.storyboard */,
+				85DEAD931C0DBB7700AA6962 /* Info.plist */,
+				85DEAD821C0DBB7700AA6962 /* Supporting Files */,
+			);
+			path = "生辰纲";
+			sourceTree = "<group>";
+		};
+		85DEAD821C0DBB7700AA6962 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85DEAD831C0DBB7700AA6962 /* main.m */,
+				85175E171C1552D300D1A2DD /* PrefixHeader.pch */,
+				85F1B3AA1C2910BA00C4A18F /* NLCEventList.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85DEAD991C0DBC0A00AA6962 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85DEAD9A1C0DBC4F00AA6962 /* MainScrollViewController.h */,
+				85DEAD9B1C0DBC4F00AA6962 /* MainScrollViewController.m */,
+				85DEADA31C0DC51300AA6962 /* NLCDayViewController.h */,
+				85DEADA41C0DC51300AA6962 /* NLCDayViewController.m */,
+				85DEADA51C0DC51300AA6962 /* NLCDayViewController.xib */,
+				851B69181C1061D700C69E4A /* NLCMonthViewController.h */,
+				851B69191C1061D700C69E4A /* NLCMonthViewController.m */,
+				851B691A1C1061D700C69E4A /* NLCMonthViewController.xib */,
+				852BC4C51C2823420071CE9E /* NLCLeftMenuViewController.h */,
+				852BC4C61C2823420071CE9E /* NLCLeftMenuViewController.m */,
+				852BC4C71C2823420071CE9E /* NLCLeftMenuViewController.xib */,
+				8540EF131C2CDE56003F42A0 /* NLCBirthdayListController.h */,
+				8540EF141C2CDE56003F42A0 /* NLCBirthdayListController.m */,
+				85B348BA1C2D65F300FDA383 /* NLCInsertEventViewController.h */,
+				85B348BB1C2D65F300FDA383 /* NLCInsertEventViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85DEAD7E1C0DBB7700AA6962 /* 生辰纲 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DEAD961C0DBB7700AA6962 /* Build configuration list for PBXNativeTarget "生辰纲" */;
+			buildPhases = (
+				C0DF38A63D86566985AF11A2 /* Check Pods Manifest.lock */,
+				85DEAD7B1C0DBB7700AA6962 /* Sources */,
+				85DEAD7C1C0DBB7700AA6962 /* Frameworks */,
+				85DEAD7D1C0DBB7700AA6962 /* Resources */,
+				157574EEAB44E5D3CA18D7AF /* Embed Pods Frameworks */,
+				8A36170BE3D5C8DC53AAD150 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "生辰纲";
+			productName = "生辰纲";
+			productReference = 85DEAD7F1C0DBB7700AA6962 /* 生辰纲.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85DEAD771C0DBB7700AA6962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					85DEAD7E1C0DBB7700AA6962 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = BVXCREX42W;
+					};
+				};
+			};
+			buildConfigurationList = 85DEAD7A1C0DBB7700AA6962 /* Build configuration list for PBXProject "生辰纲" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85DEAD761C0DBB7700AA6962;
+			productRefGroup = 85DEAD801C0DBB7700AA6962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85DEAD7E1C0DBB7700AA6962 /* 生辰纲 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85DEAD7D1C0DBB7700AA6962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852BC4C91C2823420071CE9E /* NLCLeftMenuViewController.xib in Resources */,
+				85DEAD921C0DBB7700AA6962 /* LaunchScreen.storyboard in Resources */,
+				851B691C1C1061D700C69E4A /* NLCMonthViewController.xib in Resources */,
+				85DEAD8F1C0DBB7700AA6962 /* Assets.xcassets in Resources */,
+				85DEADA71C0DC51300AA6962 /* NLCDayViewController.xib in Resources */,
+				85F1B3AB1C2910BA00C4A18F /* NLCEventList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		157574EEAB44E5D3CA18D7AF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-生辰纲/Pods-生辰纲-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A36170BE3D5C8DC53AAD150 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-生辰纲/Pods-生辰纲-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0DF38A63D86566985AF11A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85DEAD7B1C0DBB7700AA6962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DEAD871C0DBB7700AA6962 /* AppDelegate.m in Sources */,
+				047281071E7FC6750038BF90 /* NBDate.m in Sources */,
+				85A5425B1C1BE715001BA455 /* NLCCalendarLayout.m in Sources */,
+				854386251C1EE74E005EC502 /* NLCDay.m in Sources */,
+				851B691B1C1061D700C69E4A /* NLCMonthViewController.m in Sources */,
+				854235331C2C2EE200A99086 /* NLCEventDataTool.m in Sources */,
+				85F95BD41C22DAD900D06193 /* NLCEvent.m in Sources */,
+				8540EF181C2D0B24003F42A0 /* NLCBirthdayTableViewCell.m in Sources */,
+				854235301C2C2A6C00A99086 /* NLCDatabaseManager.m in Sources */,
+				8540EF151C2CDE56003F42A0 /* NLCBirthdayListController.m in Sources */,
+				852772DB1C16F09E001758B6 /* LCBlurView.m in Sources */,
+				85A542631C1BF819001BA455 /* NLCCollectionViewCell.m in Sources */,
+				85BE719B1C1F9EDD006404F0 /* NLCMonth.m in Sources */,
+				852BC4C81C2823420071CE9E /* NLCLeftMenuViewController.m in Sources */,
+				85DEAD841C0DBB7700AA6962 /* main.m in Sources */,
+				85B348BC1C2D65F300FDA383 /* NLCInsertEventViewController.m in Sources */,
+				85DEAD9C1C0DBC4F00AA6962 /* MainScrollViewController.m in Sources */,
+				85700D661C2FF3FE00BD6791 /* NSObject+HUD.m in Sources */,
+				852772DC1C16F09E001758B6 /* PagedFlowView.m in Sources */,
+				85DEADA61C0DC51300AA6962 /* NLCDayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85DEAD901C0DBB7700AA6962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DEAD911C0DBB7700AA6962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85DEAD941C0DBB7700AA6962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85DEAD951C0DBB7700AA6962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85DEAD971C0DBB7700AA6962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D02E74C790B22FA856289B /* Pods-生辰纲.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BVXCREX42W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "生辰纲/PrefixHeader.pch";
+				INFOPLIST_FILE = "生辰纲/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.NBDate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85DEAD981C0DBB7700AA6962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989438E7F4DA7319E11559A5 /* Pods-生辰纲.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BVXCREX42W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "生辰纲/PrefixHeader.pch";
+				INFOPLIST_FILE = "生辰纲/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.NBDate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85DEAD7A1C0DBB7700AA6962 /* Build configuration list for PBXProject "生辰纲" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DEAD941C0DBB7700AA6962 /* Debug */,
+				85DEAD951C0DBB7700AA6962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85DEAD961C0DBB7700AA6962 /* Build configuration list for PBXNativeTarget "生辰纲" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DEAD971C0DBB7700AA6962 /* Debug */,
+				85DEAD981C0DBB7700AA6962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85DEAD771C0DBB7700AA6962 /* Project object */;
+}

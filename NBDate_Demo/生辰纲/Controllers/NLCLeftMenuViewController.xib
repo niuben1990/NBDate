@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NLCLeftMenuViewController">
+            <connections>
+                <outlet property="gotoCalendarButton" destination="nd7-Ld-Kn2" id="eOY-Ve-24e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="allButtons" destination="Jvn-Je-bve" id="yC5-C0-rrN"/>
+                <outletCollection property="allButtons" destination="3uO-Be-rZx" id="wa0-LV-yZp"/>
+                <outletCollection property="allButtons" destination="Kkf-B0-7Bs" id="cHe-MO-kcf"/>
+                <outletCollection property="allInsertButtons" destination="wZl-rd-7IA" id="JLz-f9-e0v"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZl-rd-7IA">
+                    <rect key="frame" x="55" y="199" width="94" height="42"/>
+                    <animations/>
+                    <state key="normal" title="添加生日" backgroundImage="btn_datePicker"/>
+                    <connections>
+                        <action selector="insertEvent:" destination="-1" eventType="touchUpInside" id="EYw-3K-GUU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGs-cl-ZsH">
+                    <rect key="frame" x="55" y="251" width="94" height="42"/>
+                    <animations/>
+                    <state key="normal" title="添加提醒" backgroundImage="btn_datePicker"/>
+                    <connections>
+                        <action selector="insertEvent:" destination="-1" eventType="touchUpInside" id="7E5-hS-Hg8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvn-Je-bve">
+                    <rect key="frame" x="55" y="333" width="94" height="42"/>
+                    <animations/>
+                    <state key="normal" title="生日列表" backgroundImage="btn_datePicker"/>
+                    <connections>
+                        <action selector="eventList:" destination="-1" eventType="touchUpInside" id="9cm-vy-wTZ"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nd7-Ld-Kn2">
+                    <rect key="frame" x="55" y="117" width="94" height="42"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="8FN-FS-bbm"/>
+                        <constraint firstAttribute="width" constant="94" id="dX2-QN-Ofx"/>
+                    </constraints>
+                    <state key="normal" title="返回日历" backgroundImage="btn_datePicker"/>
+                    <connections>
+                        <action selector="gotoCalendarButtonClick:" destination="-1" eventType="touchUpInside" id="Er5-Xz-KqO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uO-Be-rZx">
+                    <rect key="frame" x="55" y="385" width="94" height="42"/>
+                    <animations/>
+                    <state key="normal" title="提醒列表" backgroundImage="btn_datePicker"/>
+                    <connections>
+                        <action selector="eventList:" destination="-1" eventType="touchUpInside" id="HY0-0U-zED"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kkf-B0-7Bs">
+                    <rect key="frame" x="55" y="437" width="94" height="42"/>
+                    <animations/>
+                    <state key="normal" title="节日列表" backgroundImage="btn_datePicker"/>
+                    <connections>
+                        <action selector="eventList:" destination="-1" eventType="touchUpInside" id="I8W-yc-IaG"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.95686274509803915" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="3uO-Be-rZx" firstAttribute="leading" secondItem="nd7-Ld-Kn2" secondAttribute="leading" id="2Kp-b2-Wh3"/>
+                <constraint firstItem="3uO-Be-rZx" firstAttribute="height" secondItem="nd7-Ld-Kn2" secondAttribute="height" id="728-Dd-hYG"/>
+                <constraint firstItem="nd7-Ld-Kn2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="55" id="Ep1-Pk-6hy"/>
+                <constraint firstItem="Jvn-Je-bve" firstAttribute="trailing" secondItem="nd7-Ld-Kn2" secondAttribute="trailing" id="Eve-mi-79K"/>
+                <constraint firstItem="Jvn-Je-bve" firstAttribute="leading" secondItem="nd7-Ld-Kn2" secondAttribute="leading" id="FSA-o0-sBl"/>
+                <constraint firstItem="Kkf-B0-7Bs" firstAttribute="height" secondItem="nd7-Ld-Kn2" secondAttribute="height" id="N8V-g0-uhP"/>
+                <constraint firstItem="nd7-Ld-Kn2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="117" id="PEo-bi-Ggy"/>
+                <constraint firstItem="wZl-rd-7IA" firstAttribute="top" secondItem="nd7-Ld-Kn2" secondAttribute="bottom" constant="40" id="Pbw-rL-Bqd"/>
+                <constraint firstItem="Jvn-Je-bve" firstAttribute="height" secondItem="nd7-Ld-Kn2" secondAttribute="height" id="U3y-1d-3Ow"/>
+                <constraint firstItem="Kkf-B0-7Bs" firstAttribute="trailing" secondItem="nd7-Ld-Kn2" secondAttribute="trailing" id="aXW-i3-6iQ"/>
+                <constraint firstItem="Jvn-Je-bve" firstAttribute="top" secondItem="wGs-cl-ZsH" secondAttribute="bottom" constant="40" id="bxN-ho-HK1"/>
+                <constraint firstItem="wGs-cl-ZsH" firstAttribute="height" secondItem="nd7-Ld-Kn2" secondAttribute="height" id="dPt-hJ-JCG"/>
+                <constraint firstItem="3uO-Be-rZx" firstAttribute="trailing" secondItem="nd7-Ld-Kn2" secondAttribute="trailing" id="eoq-SX-oDB"/>
+                <constraint firstItem="wZl-rd-7IA" firstAttribute="height" secondItem="nd7-Ld-Kn2" secondAttribute="height" id="fg7-UN-LaN"/>
+                <constraint firstItem="wGs-cl-ZsH" firstAttribute="leading" secondItem="nd7-Ld-Kn2" secondAttribute="leading" id="gJn-Xf-he8"/>
+                <constraint firstItem="Kkf-B0-7Bs" firstAttribute="top" secondItem="3uO-Be-rZx" secondAttribute="bottom" constant="10" id="iIj-nY-Nku"/>
+                <constraint firstItem="wZl-rd-7IA" firstAttribute="trailing" secondItem="nd7-Ld-Kn2" secondAttribute="trailing" id="lVj-Ei-Oc9"/>
+                <constraint firstItem="Kkf-B0-7Bs" firstAttribute="leading" secondItem="nd7-Ld-Kn2" secondAttribute="leading" id="nxr-RM-rPM"/>
+                <constraint firstItem="wGs-cl-ZsH" firstAttribute="trailing" secondItem="nd7-Ld-Kn2" secondAttribute="trailing" id="rP0-29-dVp"/>
+                <constraint firstItem="wZl-rd-7IA" firstAttribute="leading" secondItem="nd7-Ld-Kn2" secondAttribute="leading" id="yIp-iK-p09"/>
+                <constraint firstItem="3uO-Be-rZx" firstAttribute="top" secondItem="Jvn-Je-bve" secondAttribute="bottom" constant="10" id="zhH-wB-a9u"/>
+                <constraint firstItem="wGs-cl-ZsH" firstAttribute="top" secondItem="wZl-rd-7IA" secondAttribute="bottom" constant="10" id="zmd-kh-Ldp"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_datePicker" width="34" height="26"/>
+    </resources>
+</document>

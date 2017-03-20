@@ -1,0 +1,23 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - Masonry (0.6.3)
+  - MBProgressHUD (0.9.1)
+  - RESideMenu (4.0.7)
+
+DEPENDENCIES:
+  - FMDB
+  - Masonry
+  - MBProgressHUD
+  - RESideMenu
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+
+COCOAPODS: 0.39.0
